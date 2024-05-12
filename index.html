@@ -160,7 +160,7 @@
   function copyToClipboard(element) {
     var $temp = $("<input>");
     $("body").append($temp);
-    $temp.val(element.parentElement.getAttribute("url")).select();
+    $temp.val("https://quark.github.coopeeo.xyz" + element.parentElement.getAttribute("url")).select();
     document.execCommand("copy");
     $temp.remove();
     element.textContent="Copied!";
@@ -169,7 +169,7 @@
     window.open("altstore://source?URL=https://quark.github.coopeeo.xyz" + element.parentElement.getAttribute("url"));
   }
   function browseSource(element) {
-    window.open("https://altsource.by.lao.sb/browse/?source=" + encodeURIComponent(element.parentElement.getAttribute("url")));
+    window.open("https://altsource.by.lao.sb/browse/?source=https://quark.github.coopeeo.xyz" + encodeURIComponent(element.parentElement.getAttribute("url")));
   }
 
   document.getElementById("copyright").innerHTML = "Quark Sources &copy; " + new Date().getFullYear() + " - All Rights Reserved";
