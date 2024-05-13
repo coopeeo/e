@@ -20,11 +20,11 @@ sources_data = [
         "kwargs": {"repo_author": "rinsuki", "repo_name": "citra", "ver_parse": lambda x: re.sub('\D', '', x), "include_pre": True},
         "ids": [{"net.rinsuki.slapps.citra.ci-artifact": "net.rinsuki.slapps.citra"}]
     },
-    {
-        "parser": Parser.GITHUB,
-        "kwargs": {"repo_author": "ish-app", "repo_name": "ish", "prefer_date": True, "include_pre": False},
-        "ids": ["app.ish.iSH"]
-    },
+    #{
+    #    "parser": Parser.GITHUB,
+    #    "kwargs": {"repo_author": "ish-app", "repo_name": "ish", "prefer_date": True, "include_pre": False},
+    #    "ids": ["app.ish.iSH"]
+    #},
     {
         "parser": Parser.GITHUB,
         "kwargs": {"repo_author": "ginsudev", "repo_name": "WDBFontOverwrite"},
@@ -71,16 +71,16 @@ sources_data = [
         # "kwargs": {"filepath": "https://taurine.app/altstore/taurinestore.json"},
         "ids": ["org.coolstar.taurine"]
     },
-    {
-        "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "https://alt.getutm.app"},
-        "ids": ["com.utmapp.UTM", "com.utmapp.UTM-SE"]
-    },
-    {
-        "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "https://demo.altstore.io"},
-        "ids": ["com.rileytestut.GBA4iOS"]
-    },
+    #{
+    #    "parser": Parser.ALTSOURCE,
+    #    "kwargs": {"filepath": "https://alt.getutm.app"},
+    #    "ids": ["com.utmapp.UTM", "com.utmapp.UTM-SE"]
+    #},
+    #{
+    #    "parser": Parser.ALTSOURCE,
+    #    "kwargs": {"filepath": "https://demo.altstore.io"},
+    #    "ids": ["com.rileytestut.GBA4iOS"]
+    #},
     {
         "parser": Parser.ALTSOURCE,
         # "kwargs": {"repo_author": "flyinghead", "repo_name": "flycast"},
@@ -157,14 +157,14 @@ sources_data = [
     {
         "parser": Parser.ALTSOURCE,
         "kwargs": {"filepath": "https://pokemmo.eu/altstore/"},
-        "ids": ["eu.pokemmo.client", "eu.pokemmo.client.pts"]
+        "ids": ["eu.pokemmo.client"] #, "eu.pokemmo.client.pts"]
     },
-    {
-        "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "https://apps.litritt.com/"},
-        "ids": ["com.litritt.ignited"],
-        "ignoreNews": True
-    }
+    #{
+    #    "parser": Parser.ALTSOURCE,
+    #    "kwargs": {"filepath": "https://apps.litritt.com/"},
+    #    "ids": ["com.litritt.ignited"],
+    #    "ignoreNews": True
+    #}
 ]
 alternate_app_data = {
     "eu.pokemmo.client": {
