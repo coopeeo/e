@@ -220,14 +220,8 @@ except Exception as err:
 sources_data = [
     {
         "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "https://apps.altstore.io"},
-        "ids": ["com.rileytestut.AltStore", "com.rileytestut.AltStore.Beta", "com.rileytestut.Delta", "com.rileytestut.Delta.Beta", "com.rileytestut.Clip", "com.rileytestut.Clip.Beta"],
-        "getAllNews": True
-    },
-    {
-        "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "https://alpha.altstore.io"},
-        "ids": ["com.rileytestut.AltStore.Alpha", "com.rileytestut.Delta.Alpha"],
+        "kwargs": {"filepath": "https://coopeeo.xyz/as"},
+        "ids": ["com.rileytestut.AltStore", "com.rileytestut.AltStore.Beta", "com.rileytestut.Delta", "com.rileytestut.Delta.Beta", "com.rileytestut.Clip", "com.rileytestut.Clip.Beta", "com.rileytestut.AltStore.Alpha", "com.rileytestut.Delta.Alpha", "com.rileytestut.Clip.Alpha"],
         "getAllNews": True
     }
 ]
@@ -254,7 +248,7 @@ alt_complete = AltSourceManager(src, sources_data)
 try:
     alt_complete.update()
     alt_complete.update_hashes()
-    alt_complete.alter_app_info(alternate_app_data)
+    #alt_complete.alter_app_info(alternate_app_data)
     alt_complete.save()
     alt_complete.save(alternate_dir="dist/altstore-complete.min.json",prettify=False)
     alt_complete.save(alternate_dir="dist/altstore-complete.json",prettify=True)
