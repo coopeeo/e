@@ -321,7 +321,7 @@ sources_data = [
         "parser": Parser.GITHUB,
         "kwargs": {"repo_author": "StreamerApp", "repo_name": "Streamer"},
         "ids": ["com.streamer.ios"]
-    },
+    }
     #{
     #    "parser": Parser.GITHUB,
     #    "kwargs": {"repo_author": "TherionRO", "repo_name": "YouTubeiVanced", "ver_parse": lambda x: x.lstrip("release")},
