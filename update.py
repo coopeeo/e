@@ -266,12 +266,12 @@ except Exception as err:
 sources_data = [
     {
         "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "quarksource++.json"},
+        "kwargs": {"filepath": "https://quark.github.coopeeo.xyz/quarksource++.json"},
         "ids": ["com.crunchyroll.iphone", "com.duolingo.DuolingoMobile", "com.deezer.Deezer", "syto203.reddit.pp", "com.channelsapp.channels", "com.Lema.Michael.InstagramApp", "net.whatsapp.WhatsApp", "tv.twitch"]
     },
     {
         "parser": Parser.ALTSOURCE,
-        "kwargs": {"filepath": "quarksource-cracked.json"},
+        "kwargs": {"filepath": "https://quark.github.coopeeo.xyz/quarksource-cracked.json"},
         "ids": ["com.grailr.CARROTweather", "com.wolframalpha.wolframalpha", "com.firecore.infuse", "com.stey", "com.luma-touch.LumaFusion"]
     },
     {
