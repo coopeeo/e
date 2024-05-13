@@ -204,7 +204,7 @@ src = altsource_from_file("quantumsource.json")
 quantumsrc = AltSourceManager(src, sources_data)
 try:
     quantumsrc.update()
-    quantumsrc.update_hashes()
+    #quantumsrc.update_hashes()
     quantumsrc.alter_app_info(alternate_app_data)
     quantumsrc.save()
     quantumsrc.save(alternate_dir="dist/quantumsource.json",prettify=True)
