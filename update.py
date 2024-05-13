@@ -234,15 +234,18 @@ sources_data = [
 alternate_app_data = {
     "com.rileytestut.AltStore.Beta": {
         "name": "AltStore (Beta)",
-        "beta": False
+        "beta": False,
+        "patreon": False
     },
     "com.rileytestut.Delta.Beta": {
         "name": "Delta (Beta)",
-        "beta": False
+        "beta": False,
+        "patreon": False
     },
     "com.rileytestut.Clip.Beta": {
         "name": "Clip (Beta)",
-        "beta": False
+        "beta": False,
+        "patreon": False
     }
 }
 
