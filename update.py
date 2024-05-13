@@ -15,11 +15,11 @@ sources_data = [
         "kwargs": {"repo_author": "emuPlace", "repo_name": "emuThreeDS", "include_pre": True},
         "ids": ["com.antique.emuThreeDS"]
     },
-    {
-        "parser": Parser.GITHUB,
-        "kwargs": {"repo_author": "rinsuki", "repo_name": "citra", "ver_parse": lambda x: re.sub('\D', '', x), "include_pre": True},
-        "ids": [{"net.rinsuki.slapps.citra.ci-artifact": "net.rinsuki.slapps.citra"}]
-    },
+    #{
+    #    "parser": Parser.GITHUB,
+    #    "kwargs": {"repo_author": "rinsuki", "repo_name": "citra", "ver_parse": lambda x: re.sub('\D', '', x), "include_pre": True},
+    #    "ids": [{"net.rinsuki.slapps.citra.ci-artifact": "net.rinsuki.slapps.citra"}]
+    #},
     #{
     #    "parser": Parser.GITHUB,
     #    "kwargs": {"repo_author": "ish-app", "repo_name": "ish", "prefer_date": True, "include_pre": False},
@@ -207,6 +207,7 @@ try:
     quantumsrc.update_hashes()
     quantumsrc.alter_app_info(alternate_app_data)
     quantumsrc.save()
+    quantumsrc.save(alternate_dir="dist/quantumsource.json",prettify=True)
     quantumsrc.save(alternate_dir="dist/quantumsource.min.json",prettify=False)
 except Exception as err:
     logging.error(f"Unable to update {quantumsrc.src.name}.")
@@ -253,6 +254,7 @@ try:
     alt_complete.alter_app_info(alternate_app_data)
     alt_complete.save()
     alt_complete.save(alternate_dir="dist/altstore-complete.min.json",prettify=False)
+    alt_complete.save(alternate_dir="dist/altstore-complete.json",prettify=True)
 except Exception as err:
     logging.error(f"Unable to update {alt_complete.src.name}.")
     logging.error(f"{type(err).__name__}: {str(err)}")
@@ -275,7 +277,7 @@ sources_data = [
     {
         "parser": Parser.GITHUB,
         #"kwargs": {"filepath": "https://altstore.enmity.app/"},
-        "kwargs": {"repo_author": "enmity-mod", "repo_name": "tweak", "asset_regex": r"(?!.*(d|D)ev.*).*\.ipa"},
+        "kwargs": {"repo_author": "enmity-mod", "repo_name": "tweak"}, #, "asset_regex": r"(?!.*(d|D)ev.*).*\.ipa"},
         "ids": ["com.hammerandchisel.discord"]
     },
     {
@@ -340,6 +342,7 @@ try:
     #quantumsrc_plus.alter_app_info(alternate_app_data)
     quantumsrc_plus.save()
     quantumsrc_plus.save(alternate_dir="dist/quantumsource++.min.json",prettify=False)
+    quantumsrc_plus.save(alternate_dir="dist/quantumsource++.json",prettify=True)
 except Exception as err:
     logging.error(f"Unable to update {quantumsrc_plus.src.name}.")
     logging.error(f"{type(err).__name__}: {str(err)}")
