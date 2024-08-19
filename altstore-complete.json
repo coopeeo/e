@@ -269,6 +269,46 @@
       ],
       "versions": [
         {
+          "version": "1.6.2",
+          "buildVersion": "114",
+          "date": "2024-07-31T12:00:00-05:00",
+          "localizedDescription": "\u2022 Fixed occasionally dropping DS touch screen inputs\n\u2022 Fixed crash loading certain skins with fallback traits\n\u2022 Fixed crash loading certain iPhone skins on iPad\n\u2022 Fixed app freezing when AirPlaying\n\u2022 Fixed app freezing when rotating device with certain skins",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_2.ipa",
+          "size": 87753113,
+          "sha256": "f877695ca73825137c4e65133d8e044b295031dc93f26c247efd629eda94e4fd",
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.6.1",
+          "buildVersion": "109",
+          "date": "2024-07-23T12:00:00-05:00",
+          "localizedDescription": "NEW\n\u2022 Supports using iPhone skins on iPad\n\nFIXED\n\u2022 Fixed rare crash when loading DS save states\n\u2022 Fixed game controllers not working on visionOS and macOS\n\u2022 Fixed hardware keyboard support on macOS\n\u2022 Fixed menu button not working on external controllers with remapped menu button\n\u2022 Fixed delayed inputs on external controllers with remapped menu button\n\u2022 Fixed DS touch screen not responding after updating to iPad version",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_1.ipa",
+          "size": 87753061,
+          "sha256": "f92974c49b404eb5233c8ac22cb5dc2a4a85685b24b1b1647cbe8525e347c00b",
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.6",
+          "buildVersion": "102",
+          "date": "2024-07-10T12:00:00-05:00",
+          "localizedDescription": "\u26a0\ufe0f This update is incompatible with existing DS save states. Please save normally in-game before updating to avoid losing progress.\n\nNEW\n\nApp Icon\n\u2022 Brand new legally-compliant app icon (thanks Caroline Moore!)\n\u2022 Includes alternative app icons designed by community members:\n\u2022 \"Halogenide\" by Sebastiaan de With\n\u2022 \"Ketchup\" by Ben McCarthy\n\u2022 \"Microchip\" by Sean Fletcher\n\niPad Support\n\u2022 Play games full screen on iPad's beautiful display\n\u2022 Brand new controller skins designed specifically for iPad (thanks Caroline Moore!)\n\u2022 Supports multiple windows in Stage Manager and Split View\n\u2022 Automatically pauses games when switching windows (optional)\n\nHandoff\n\u2022 Seamlessly switch between iPhone and iPad\n\u2022 Continues playing exactly where you left off\n\u2022 Also supports Delta on Apple Silicon Macs via Mac App Store\n\nmelonDS 0.9.5\n\u2022 Improves DS game compatibility & performance\n\u2022 BIOS files are now optional!\n\u2022 Supports \"inserting\" GBA games into DS dual-slot\n\u2022 Increased Fast Forward speed to 3x (A15 processor or later)\n\nMenu Button Gestures\n\u2022 Use gestures while holding menu button to perform quick actions\n\u2022 Menu + Horizontal Swipe: Fast Forward\n\u2022 Menu + Any Button: Hold Button\n\u2022 Menu + Double-Tap: Quick Save\n\u2022 Menu + Long-Press: Quick Load\n\nExperimental Features\n\u2022 New section in Settings for features by third-party contributors\n\u2022 Features are WIP and should be used at user\u2019s discretion\n\u2022 Available for Patrons on \"Beta Access\" tier or higher\n\nSave States\n\u2022 Sort save states by name\n\u2022 View all incompatible screenshots on a separate screen\n\u2022 Export save states to import into other emulators\n\n\u201cDisplay Full Screen\u201d AirPlay Setting\n\u2022 Control whether Delta shows games full screen on external displays\n\u2022 Disable to use multiple windows on external display with Stage Manager\n\nMisc.\n\u2022 Supports Game Mode on iOS 18+\n\u2022 Increased DS screen size for default edge-to-edge iPhone landscape skin\n\nFIXED\n\n\u2022 Fixed exporting save file without file extension\n\u2022 Fixed interface rotating when playing WarioWare: Twisted!\n\u2022 Fixed Pokemon Black & White (2) freezing with C-Gear enabled",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6.ipa",
+          "size": 87734964,
+          "sha256": "2e41f24f617b2e73618b786efadfd9d27a9c9de119e6576caa4b51dd36c2d07e",
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.5.4",
+          "buildVersion": "93",
+          "date": "2024-05-17T12:00:00-05:00",
+          "localizedDescription": "Adobe threatened legal action unless we changed our app icon \u2014 so we did! Hope y'all like it :)\n\n\u2022 New icon to avoid legal trouble\n\u2022 Revised context menu for games\n\u2022 Fixed exporting save file without file extension\n\u2022 Fixed broken melonDS BIOS FAQ link",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_5_4.ipa",
+          "size": 45858115,
+          "sha256": "02a660bd525dc52164fdf764483858b71accfd9ad2e9e968f64fd231d126f664",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.5.2",
           "buildVersion": "88",
           "date": "2024-04-25T12:00:00-05:00",
@@ -361,6 +401,46 @@
         "https://user-images.githubusercontent.com/705880/65601117-58b5c600-df56-11e9-9c19-9a5ba5da54cf.PNG"
       ],
       "versions": [
+        {
+          "version": "1.6.2b",
+          "buildVersion": "112",
+          "date": "2024-07-30T12:00:00-05:00",
+          "localizedDescription": "\u2022 Fixed occasionally dropping DS touch screen inputs\n\u2022 Fixed crash loading certain skins with fallback traits\n\u2022 Fixed crash loading certain iPhone skins on iPad\n\u2022 Fixed app freezing when AirPlaying\n\u2022 Fixed app freezing when rotating device with certain skins",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_2_b.ipa",
+          "size": 87750164,
+          "sha256": "aecca7266cf7295d46825377b95dc582d8fdcfc0e70ee255867b6508733843e4",
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.6.1b",
+          "buildVersion": "106",
+          "date": "2024-07-19T12:00:00-05:00",
+          "localizedDescription": "NEW\n\u2022 Supports using iPhone skins on iPad\n\u2022 Updated app icon to new logo\n\nFIXED\n\u2022 Fixed rare crash when loading DS save states\n\u2022 Fixed game controllers not working on visionOS and macOS\n\u2022 Fixed hardware keyboard support on macOS\n\u2022 Fixed menu button not working on external controllers with remapped menu button\n\u2022 Fixed delayed inputs on external controllers with remapped menu button\n\u2022 Fixed DS touch screen not responding after updating to iPad version",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_1_b.ipa",
+          "size": 87750073,
+          "sha256": "d163a9ee00c4ec4d0c7f6feb15bc944a941c14799e0dcc6f05c5236ced7e1d2a",
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.6rc",
+          "buildVersion": "96",
+          "date": "2024-06-27T14:00:00-05:00",
+          "localizedDescription": "NEW\n\nHandoff Support\n\u2022 Seamlessly switch between iPhone and iPad\n\u2022 Continues playing exactly where you left off\n\u2022 Supports Delta on Apple Silicon Macs via Mac App Store\n\nSave States\n\u2022 View all incompatible screenshots on a separate screen\n\u2022 Export save states to import into other emulators\n\u2022 Supports sorting by name\n\nMisc.\n\u2022 Supports Game Mode on iOS 18+\n\u2022 \"Open New Window\" option by long-pressing \"Main Menu\"/\"Close\" on pause screen\n\nIMPROVED\n\nQuick Gestures\n\u2022 Added new gestures for Quick Save/Load\n\u2022 Quick Save = Double-tap\n\u2022 Quick Load = Long-press\n\nController Skins\n\u2022 Finalizes iPad controller skin designs\n\u2022 UI to choose different Split View/Stage Manager skins\n\u2022 Increased DS screen size for default edge-to-edge iPhone landscape skin\n\nExperimental Features\n\u2022 UI to choose AirPlay skins\n\u2022 \"Skin Debugging\" to toggle \"debug mode\" for skins\n\nFIXED\n\niPad\n\u2022 Fixed not recognizing quick gestures on Split View controller\n\u2022 Fixed crash when pressing \"Reset Controller Skin\" button\n\u2022 Fixed crash opening N64 games in new window with context previews enabled\n\u2022 Fixed sometimes showing incorrect skin orientation in split view\n\u2022 Fixed loading wrong game after quitting game in another window\n\u2022 Fixed potential freeze when opening games in new window",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_rc.ipa",
+          "size": 52596261,
+          "sha256": "7313b58dc3c9977193e19e9569fb3c629b798095f7dd8515e059041afa3b8b15",
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.6b2",
+          "buildVersion": "94",
+          "date": "2024-05-30T11:30:00-05:00",
+          "localizedDescription": "\u26a0\ufe0f This update is incompatible with existing DS save states. Please save normally in-game before updating.\n\nNEW\n\nMultiple Windows\n\u2022 Supports multiple windows on iPad\n\u2022 Emulate games from multiple systems simultaneously \n\u2022 Open new windows via drag & drop, or by long-pressing game then choosing \"Open in New Window\"\n\u2022 Automatically pause games when switching windows (optional)\n\nUpdated melonDS core to 0.9.5\n\u2022 Improves game compatibility & performance\n\u2022 BIOS files are now optional!\n\u2022 Supports \"inserting\" GBA games into DS dual-slot\n\u2022 Increased fast forward speed to 3x (A15 processor or later)\n\n\u201cSupport External Displays\u201d Setting\n\u2022 Control whether Delta shows games full screen on external displays\n\u2022 Disable to use multiple windows on external display with Stage Manager\n\nFIXED\n\u2022 Fixed clipped context menu preview for games\n\u2022 Fixed exporting save file without file extension\n\u2022 Fixed interface rotating when playing WarioWare: Twisted!\n\u2022 [iPad] Fixed not adjusting DS screens for split view keyboard\n\u2022 [iPad] Fixed hidden save state thumbnails when in compact size class",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_b2.ipa",
+          "size": 48566277,
+          "sha256": "de325034fe709c0ed3c65d70d7c06c0038bfb31174d5de132b7be5c057840a4c",
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.6b",
           "buildVersion": "91",
@@ -497,6 +577,16 @@
       ],
       "versions": [
         {
+          "version": "1.1",
+          "buildVersion": "14",
+          "date": "2024-06-05T12:00:00-05:00",
+          "localizedDescription": "\u2022 Switches to using location services to run in background\n\u2022 Improves reading clipboard on iOS 17",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/clip/1_1.ipa",
+          "size": 601183,
+          "sha256": "69bb0ef2c4419f043df58625733232a8cc899bfaba5e5325202919a1a582916a",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.0",
           "date": "2020-06-17T12:30:00-07:00",
           "localizedDescription": "Initial version \ud83c\udf89",
@@ -505,6 +595,19 @@
           "sha256": "3ac73fe85b6bf7e5433582db73f27edd4d6ff8d4859569460ad4f5159297f63f"
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "LocationAlwaysAndWhenInUse",
+            "usageDescription": "Clip requires \u201cAlways\u201d location permission to automatically tag clippings with your location. Your location data never leaves this device."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "Clip requires location permissions to automatically tag clippings with your location. Your location data never leaves this device."
+          }
+        ]
+      },
       "appID": "com.rileytestut.Clip"
     },
     {
@@ -523,6 +626,16 @@
       ],
       "versions": [
         {
+          "version": "1.2b",
+          "buildVersion": "13",
+          "date": "2024-06-05T12:00:00-05:00",
+          "localizedDescription": "\u2022 Switches to using location services to run in background\n\u2022 Improves reading clipboard on iOS 17",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/clip/1_2_b.ipa",
+          "size": 601183,
+          "sha256": "e6f7add78dda8a4ba8c51e0e61c4a572faf526da8c7d6280d2531fd444d31746",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "1.1b1",
           "date": "2020-06-17T12:30:00-07:00",
           "localizedDescription": "This update adds a Custom Keyboard app extension for quick access to clippings when editing text.\n\nTo enable the keyboard, go to Settings > General > Keyboard > Keyboards > Add New Keyboard... and add \"ClipBoard\". Once added, make sure to then enable \"Allow Full Access\" for ClipBoard so it can access your clippings.",
@@ -531,6 +644,19 @@
           "sha256": "d7314df158dd5918d63d07ae0c60ee4565c6e47645b3027db7b715fa1b1cf17e"
         }
       ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": [
+          {
+            "name": "LocationAlwaysAndWhenInUse",
+            "usageDescription": "Clip requires \u201cAlways\u201d location permission to automatically tag clippings with your location. Your location data never leaves this device."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "Clip requires location permissions to automatically tag clippings with your location. Your location data never leaves this device."
+          }
+        ]
+      },
       "beta": false,
       "appID": "com.rileytestut.Clip.Beta"
     },
