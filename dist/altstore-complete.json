@@ -102,6 +102,15 @@
       ],
       "versions": [
         {
+          "version": "2.2b",
+          "date": "2025-04-09T12:00:00-05:00",
+          "localizedDescription": "NEW\n\u2022 Supports sideloading apps with \u201cIncreased Memory Limit\u201d entitlement\n\u2022 Supports localized titles, subtitles, and descriptions in sources\n\u2022 Added `altstore-classic://` URL scheme\n\u2022 Added Bluesky social media button to Settings\n\nIMPROVED\n\u2022 Hides \u201cSee All\u201d button in Browse tab for sources with just 1 app\n\u2022 Changed icon back to Classic icon by default\n\nFIXED\n\u2022 Fixed choosing alternate app icon on iPad\n\u2022 Fixed \u201cJoin Patreon\u201d sheet appearance in dark mode\n\u2022 Fixed installing apps before adding source via deep link\n\u2022 Fixed handling source deep link when already viewing source details\n\u2022 Fixed redundant app update appearing after resigning expired app\n\u2022 Fixed not immediately showing updates for some installed apps \n\u2022 Fixed not showing OPEN for installed apps when previewing source via deep link\n\u2022 Fixed not showing OPEN for installed apps when previewing already-added Recommended Source",
+          "downloadURL": "https://www.patreon.com/file?h=105173733&m=449530178",
+          "size": 32753964,
+          "sha256": "8fb4753cc4413332908fb6b4070e6eb56552ec8fa78636b76a9d79cd7a476dfe",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "2.0.2b",
           "date": "2024-11-14T12:00:00-06:00",
           "localizedDescription": "\u2022 Fixed runtime crashes with AltStore 2.0.1\n\u2022 Fixed \"Handshake Failed\" error when signing-in\n\nPREVIOUS UPDATE\n\u2022 Added dark mode & tinted app icons\n\u2022 Added Home Screen quick actions with support info\n\u2022 Fixed crash when fetching source containing app larger than 2GB\n\u2022 Fixed handling Patreon rate limit errors\n\u2022 Fixed crash updating apps if more than 1 update is available\n\u2022 Fixed crash installing apps if internet connection drops",
